@@ -109,14 +109,13 @@ a {
 .wrapper-img-hero {
     position: absolute;
     top: 0;
-    right: -30vw;
     bottom: 0;
-    left: 0;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     transform: skew(30deg,0);
     transform-origin: bottom left;
+    margin-top: -400px;
 }
 
 
