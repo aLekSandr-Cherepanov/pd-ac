@@ -87,6 +87,10 @@ a {
     justify-content: center;
 }
 
+.head-block {
+    font-size: 42px;
+}
+
 .button-application {
     width: 100%;
     max-width: 320px;
