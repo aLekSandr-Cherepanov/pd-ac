@@ -18,3 +18,24 @@
     list-style-type: none;
     gap: 8px;
 }
+
+.header-head {
+    text-align: center;
+    color: #9055a9;
+}
+
+.number-header {
+    width: 100%;
+    max-width: 160px;
+}
+
+.link-number {
+    text-decoration: none;
+    background-color: #a080b4;
+    display: flex;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
