@@ -74,7 +74,8 @@ a {
 .hero-block {
     display: flex;
     background-color: #473273;
-    height: 670px
+    height: 670px;
+    overflow: hidden;
 }   
 
 .button-application {
@@ -96,6 +97,26 @@ a {
 
 .img-hero {
     width: 1035px;
+}
+
+.hero-right {
+    width: 60%;
+    overflow: hidden;
+    transform: skew(331deg,0);
+    transform-origin: bottom left;
+}
+
+.wrapper-img-hero {
+    position: absolute;
+    top: 0;
+    right: -30vw;
+    bottom: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    transform: skew(30deg,0);
+    transform-origin: bottom left;
 }
 
 
