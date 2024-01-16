@@ -7,7 +7,9 @@ blockquote,q{quotes:none}
 blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
 table{border-collapse:collapse;border-spacing:0}
 
-
+.container {
+    max-width: 1300px;
+}
 
 .wrapper {
     display: flex;
@@ -20,6 +22,7 @@ table{border-collapse:collapse;border-spacing:0}
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 20px;
 }
 
 .sociallinks-wrapper {
@@ -29,6 +32,7 @@ table{border-collapse:collapse;border-spacing:0}
 }
 
 .header-head {
+    font-size: 40px;
     text-align: center;
     color: #9055a9;
 }
