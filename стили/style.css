@@ -73,10 +73,15 @@ a {
 
 .hero-block {
     display: flex;
+    position: relative;
     background-color: #473273;
     height: 670px;
     overflow: hidden;
-}   
+}  
+
+.hero-left {
+    position: relative;
+}
 
 .button-application {
     width: 100%;
@@ -100,6 +105,10 @@ a {
 }
 
 .hero-right {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 30%;
     width: 60%;
     overflow: hidden;
     transform: skew(331deg,0);
