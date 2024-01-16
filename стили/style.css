@@ -80,7 +80,11 @@ a {
 }  
 
 .hero-left {
-    position: relative;
+    width: 40%;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .button-application {
@@ -102,6 +106,10 @@ a {
 
 .img-hero {
     width: 1035px;
+}
+
+.descr-span {
+    font-size: 26px;
 }
 
 .hero-right {
