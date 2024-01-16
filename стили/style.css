@@ -71,6 +71,11 @@ a {
     color: black;
 }
 
+.hero-block {
+    background-color: #473273;
+    height: 670px
+}   
+
 .button-application {
     width: 100%;
     max-width: 320px;
