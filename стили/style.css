@@ -86,6 +86,7 @@ a {
     gap: 40px;
     flex-direction: column;
     justify-content: center;
+    margin-left: 65px;
 }
 
 .head-block {
