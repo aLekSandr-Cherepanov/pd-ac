@@ -61,12 +61,14 @@ a {
 .nav-menu {
     display: flex;
     justify-content: space-between;
+    padding-top: 50px;
 }
 
 .menu-a {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.5px;
+    color: black;
 }
 
 
