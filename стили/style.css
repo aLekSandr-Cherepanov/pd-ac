@@ -185,6 +185,7 @@ a {
 .list-block-advantages {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
 }
 
 .block-advantages {
