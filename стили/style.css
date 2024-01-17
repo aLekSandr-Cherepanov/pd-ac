@@ -166,6 +166,11 @@ a {
     background-color: #fcefd6;
 }
 
+.list-block-advantages {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
 .block-advantages {
     max-width: 260px;
     display: flex;
