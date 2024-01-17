@@ -166,6 +166,12 @@ a {
     background-color: #fcefd6;
 }
 
+.hero-head-advantages {
+    font-size: 42px;
+    font-family: 'Nokora',Arial,sans-serif;
+    font-weight: 600;
+}
+
 .list-block-advantages {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
